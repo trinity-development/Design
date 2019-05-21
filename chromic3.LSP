@@ -1,0 +1,6 @@
+(defun c:chromic3()
+  (command "zoom" "extents" "")
+  (c:getroofs)
+  (c:revlist)
+  (c:rftxt)
+)
