@@ -1,0 +1,5 @@
+(defun c:chromic3()
+  (c:getroofs)
+  (c:revlist)
+  (c:rftxt)
+)

@@ -1,0 +1,2 @@
+ThisDrawing.SendCommand ("(setq InsertionPoint (list ctr_pt(0) ctr_pt(1) ctr_pt(2)))" & vbCr)
+                ThisDrawing.SendCommand ("QB" & vbCr)

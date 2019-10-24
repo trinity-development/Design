@@ -1,0 +1,21 @@
+testdcl1
+
+: dialog
+
+{
+label = "test Dialog 1"
+	: text
+	{
+	label = "this is a test message";
+	alignment = centered;
+	}
+
+	: button
+	{
+	key = "accept";
+	label = "Close";
+	is_default = true;
+	fixed_width = true;
+	alignment = centered;
+	}
+}

@@ -1,0 +1,13 @@
+(defun c:blockDWG()
+  
+(setq blknm "INTERCONNECTION_DYN_NEW")
+(setq inter (getstring "Please describe Interconnection without spaces\n"))
+(setq selectionset (ssget))
+(setq insertionpoint (list 6530.3125 17097.25 0))
+(command "-purge" "Blocks" blknm "No")
+(command "_.-Block" blknm insertionpoint selectionset "")
+(command "filedia" "0")
+(command "-wBlock" (strcat "C:\\Users\\TamirLieber\\Desktop\\block_library\\" inter ".dwg") blknm '(0 0 0))
+(command "filedia" "1")
+(command "_.-insert" blknm insertionpoint "" "" "")
+)
