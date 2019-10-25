@@ -1,6 +1,0 @@
-(defun c:chromic5new()
-  (c:getroofsnew)
-  (c:revlist)
-  (c:rftxtnew)
-  (c:GetSnapRoofsnew)
-)

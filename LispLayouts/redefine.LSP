@@ -1,7 +1,0 @@
-(defun c:redif()
-  (setq blockname "nonFusedDisconnect_Dyn")
-  (setq first (strcat blockname "="))
-  (setq second "Z:\\1. RESIDENTIAL JOBS\\006 Block Library\\3LINE TEMPLATES\\productionMeter_Dyn.dwg")
-  (setq total (strcat first second))
-  (command "-insert" total) 
-)

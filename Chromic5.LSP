@@ -1,6 +1,0 @@
-(defun c:chromic5()
-  (c:getroofs)
-  (c:revlist)
-  (c:rftxt)
-  (c:getsnaproofs)
-)
